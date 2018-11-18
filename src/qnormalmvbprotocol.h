@@ -3,7 +3,7 @@
 
 #include "qabstractmvbprotocol.h"
 
-class QNormalProtocol: QAbstractMvbProtocol
+class QNormalMvbProtocol: QAbstractMvbProtocol
 {
 
 };

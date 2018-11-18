@@ -4,6 +4,11 @@
 
 #include <QtGlobal>
 #include <QObject>
+#include <QThread>
+#include "qmvbcard.h"
+#include "qabstractmvbdriver.h"
+#include "qabstractmvbprotocol.h"
+#include "qmvbport.h"
 
 namespace Mvb4Qt
 {
