@@ -20,20 +20,19 @@ SOURCES += \
     qmvbcard.cpp \
     qmvbmanager.cpp \
     qoffsetmvbprotocol.cpp \
-    qnormalmvbprotocol.cpp \
     qavicmvbdriver.cpp \
     qpixymvbdriver.cpp \
-    qsimulatemvbdriver.cpp
+    qsimulatemvbdriver.cpp \
+    qmvbprotocol.cpp
 
 HEADERS += \
     mvb4qt.h \
     qmvbport.h \
     qabstractmvbdriver.h \
-    qabstractmvbprotocol.h \
     qmvbcard.h \
     qmvbmanager.h \
     qoffsetmvbprotocol.h \
-    qnormalmvbprotocol.h \
     qavicmvbdriver.h \
     qpixymvbdriver.h \
-    qsimulatemvbdriver.h
+    qsimulatemvbdriver.h \
+    qmvbprotocol.h

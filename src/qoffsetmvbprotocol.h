@@ -2,7 +2,9 @@
 #define QOFFSETMVBPROTOCOL_H
 
 
-class QOffsetMvbProtocol
+#include "qmvbprotocol.h"
+
+class QOffsetMvbProtocol : QMvbProtocol
 {
 public:
     QOffsetMvbProtocol();
