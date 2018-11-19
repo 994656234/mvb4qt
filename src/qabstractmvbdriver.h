@@ -8,8 +8,6 @@
 class QAbstractMvbDriver
 {
 public:
-    QAbstractMvbDriver() {}
-    virtual ~QAbstractMvbDriver {};
     virtual bool start(QMvbCard &card) = 0;
     virtual bool stop(QMvbCard &card) = 0;
     virtual bool configure(QMvbPort &card) = 0;

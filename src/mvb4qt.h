@@ -7,7 +7,6 @@
 #include <QThread>
 #include "qmvbcard.h"
 #include "qabstractmvbdriver.h"
-#include "qabstractmvbprotocol.h"
 #include "qmvbport.h"
 
 namespace Mvb4Qt
@@ -31,6 +30,13 @@ namespace Mvb4Qt
         MinMvbBuffer,
         MidMvbBuffer,
         MaxMvbBuffer
+    };
+
+    enum MvbCardState
+    {
+        MvbCardStart,
+        MvbCardStop,
+        MvbCardConfigure
     };
 }
 

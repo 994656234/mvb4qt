@@ -73,3 +73,13 @@ void QMvbPort::clear()
         this->data[i] = 0;
     }
 }
+
+QString QMvbPort::getGroup() const
+{
+    return group;
+}
+
+QString QMvbPort::setGroup(QString group)
+{
+    this->group = group;
+}
